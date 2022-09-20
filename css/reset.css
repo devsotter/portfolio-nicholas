@@ -106,6 +106,9 @@ hr {
 .git a:hover {
   filter: grayscale(20%);
 }
+.sobre-info a:hover {
+  filter: grayscale(20%);
+}
 
 
 
