@@ -1,0 +1,257 @@
+.sobre {
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 2 500px;
+  font-size: 2.2rem;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #2222222c;
+}
+
+.sobre-info p {
+  text-indent: 15px;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  margin: 20px 10px;
+}
+
+.icones-skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 3px;
+}
+
+.icones-skills > img {
+  background-color: #2222222c;
+  width: 120px;
+  height: 120px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+
+  100% {
+    transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+.skills {
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-info {
+  flex: 2 2 450px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #2222222c;
+}
+
+.skills-info p {
+  text-indent: 15px;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  margin: 20px 10px;
+}
+
+.codepen {
+  background-color: #2222222c;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #2222222c;
+  box-shadow: 5px 5px #ffd700, 10px 10px #2c2c2c;
+  border: 1px dashed #2c2c2c;
+}
+
+.codepen p {
+  text-indent: 15px;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  margin: 20px 10px;
+}
+
+.sobre-img img {
+  object-fit: cover;
+  background-color: #2222222c;
+  height: 400px;
+  margin: 0 10px;
+}
+
+.caixa {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.projetos {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projetos-info {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  background-color: #2222222c;
+}
+
+.projetos-info a {
+  font-weight: normal;
+}
+
+.projetos-info p {
+  margin: 10px;
+}
+
+.projetos-info .git {
+  margin: 20px 10px;
+  font-size: 2.2rem;
+}
+.projetos-info .git a {
+  font-weight: bold ;
+}
+.msg {
+  display: block;
+  position: absolute;
+  top: 54.5px;
+  left: 15px;
+  width: 270px;
+  height: 190px;
+  background-color: #f3f2f2;
+  transition: 0.3s ease-in-out;
+}
+
+.msg p {
+  font-size: 2.5rem;
+}
+
+.box:hover .msg {
+  transform: translatey(-110px);
+  box-shadow: 5px 5px 5px #2c2c2c;
+}
+
+.flex {
+  margin-top: 60px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.atras {
+  position: absolute;
+  width: 280px;
+  height: 200px;
+  background: #2c2c2c;
+}
+
+.atras::before {
+  top: -20px;
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  background: #2c2c2c;
+  border-top-right-radius: 10px;
+}
+
+.frente {
+  position: relative;
+  top: 20px;
+  left: -20px;
+  width: 280px;
+  height: 200px;
+  background: #ffd700;
+  box-shadow: 3px 3px 3px #2c2c2c;
+}
+
+.frente::before {
+  top: -20px;
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  background: #ffd700;
+  border-top-right-radius: 10px;
+}
+
+.frente::after {
+  content: "  ";
+  width: 20px;
+  height: 20px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  background-color: #f8d823;
+  box-shadow: -20px 0px #f7db3d, -40px 0px #ffe551, 0px -20px #ffec84,
+    -0px -40px#fae525, -20px -20px #dfc015, 0px 0px #ffd700;
+}
+
+.contato {
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contato-info {
+  flex: 2 2 500px;
+  font-size: 2.2rem;
+  padding: 10px;
+  margin: 10px;
+  background-color: #2222222c;
+}
+
+.contato-info p {
+  font-size: 4rem;
+  line-height: 4.5rem;
+  margin: 20px 10px;
+}
+
+.contato-email p {
+  text-align: center;
+ font-size: 25rem;
+ padding: 0 135px;
+  margin: 10px;
+  background-color: #2222222c;
+}
+
+.contato a {
+  font-size: 3rem;
+}

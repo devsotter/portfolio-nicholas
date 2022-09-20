@@ -1,0 +1,94 @@
+@media (max-width: 947px) {
+  .sobre-img {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .conteudo-main {
+    font-size: clamp(3rem, 10vw, 2rem);
+  }
+  .caixa {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 845px) {
+  .dica {
+    display: none;
+  }
+
+  .sobre img {
+    width: 95%;
+  }
+
+  .contato p {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 50%;
+    padding-top: 0px;
+  }
+
+  header .label {
+    font-size: 2rem;
+  }
+
+  .topo {
+    display: none;
+  }
+
+  .icon-mob {
+    display: flex;
+  }
+}
+
+@media (max-width: 610px) {
+  .icones-skills img {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 470px) {
+  .conteudo-main {
+    font-size: clamp(2rem, 10vw, 2rem);
+  }
+  .icones-skills {
+    display: none;
+  }
+  .contato-email p {
+    display: none;
+  }
+}
+
+@media (max-width: 365px) {
+  .flex {
+    transform: scale(0.8);
+  }
+
+  .box {
+    width: 250px;
+  }
+
+  .atras {
+    width: 250px;
+  }
+
+  .frente::before {
+    top: -15px;
+  }
+
+  .msg {
+    width: 229px;
+  }
+}
+
+@media (max-width: 300px) {
+  .flex {
+    display: none;
+  }
+}

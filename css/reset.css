@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: normal;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding-top: 70px;
+  background-color: #f0f0f0;
+  color: #2c2c2c;
+  font-size: 1.6rem;
+  scroll-behavior: smooth;
+  transition: 0.2s linear;
+}
+
+h3,
+h4,
+h5,
+h6{
+  box-shadow: 5px 5px #2c2c2c;
+  padding: 0 5px;
+  background-color: #ffd700;
+  display: inline-block;
+  font-size: 4rem;
+  margin: 10px;
+  font-weight: 200;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  background-color: #2c2c2c;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffd700;
+  border: 1px solid #2c2c2c;
+  width: 2px;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+hr {
+  color: #f0f0f0;
+  height: 5px;
+  margin-top: 15px;
+}
+
+.icon-mob {
+  display: flex;
+  display: none;
+  padding: 10px;
+}
+
+.codepen a,
+.sobre-info a,
+.projetos-info a,
+.contato-info a {
+  font-weight: bold;
+  background-color: #ffd700;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #2c2c2c;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+.skills-info a:hover {
+  filter: grayscale(20%);
+}
+
+
+.git a:hover {
+  filter: grayscale(20%);
+}
+
+
+
+.codepen a:hover {
+  filter: grayscale(20%);
+}
+
+.contato-info a:hover {
+  filter: grayscale(20%);
+}
