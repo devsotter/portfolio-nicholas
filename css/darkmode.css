@@ -19,6 +19,7 @@
 }
 
 .label .ball {
+  border: 1px solid #ffd700;
   background-color: #ffffff;
   border-radius: 50%;
   position: absolute;

@@ -20,3 +20,14 @@
   color: #ffd700;
   text-shadow: 1px 1px #2c2c2c;
 }
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 400px; 
+  margin: 10px;
+  padding: 10px;
+    font-size: 15rem;
+  background-color: #2222222c;
+  color: #2c2c2c;
+}
