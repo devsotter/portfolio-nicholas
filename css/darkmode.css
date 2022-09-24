@@ -58,6 +58,10 @@
 .dark .conteudo-main h1 {
   text-shadow: 1px 1px #f0f0f0;
 }
+.dark .tag {
+  background-color: #4b4b4b;
+  color: #f0f0f0;
+}
 
 .dark .sobre img {
   background-color: #4b4b4b;
