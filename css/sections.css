@@ -30,7 +30,7 @@
   margin-bottom: 3px;
 }
 
-.icones-skills > img {
+.icones-skills>img {
   background-color: #2222222c;
   width: 120px;
   height: 120px;
@@ -132,9 +132,11 @@
   margin: 20px 10px;
   font-size: 2.2rem;
 }
+
 .projetos-info .git a {
-  font-weight: bold ;
+  font-weight: bold;
 }
+
 .msg {
   display: block;
   position: absolute;
@@ -209,18 +211,6 @@
   border-top-right-radius: 10px;
 }
 
-.frente::after {
-  content: "  ";
-  width: 20px;
-  height: 20px;
-  bottom: 0px;
-  right: 0px;
-  position: absolute;
-  background-color: #f8d823;
-  box-shadow: -20px 0px #f7db3d, -40px 0px #ffe551, 0px -20px #ffec84,
-    -0px -40px#fae525, -20px -20px #dfc015, 0px 0px #ffd700;
-}
-
 .contato {
   justify-content: center;
   width: 100%;
@@ -246,8 +236,8 @@
 
 .contato-email p {
   text-align: center;
- font-size: 25rem;
- padding: 0 135px;
+  font-size: 25rem;
+  padding: 0 135px;
   margin: 10px;
   background-color: #2222222c;
 }

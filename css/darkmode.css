@@ -22,16 +22,15 @@
   background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
-  top: -0px;
-  left: 0.2px;
-  height: 23px;
-  width: 23px;
+  left: -3px;
+  height: 27px;
+  width: 27px;
   transform: translateX(0px);
   transition: transform 0.2s linear;
 }
 
 .checkbox:checked+.label .ball {
-  transform: translateX(26px);
+  transform: translateX(27px);
 }
 
 .fa-moon {

@@ -12,7 +12,9 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
-
+code {
+  color: #ffd700;
+}
 body,
 h1,
 h2,
