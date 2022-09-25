@@ -10,6 +10,5 @@
 Utilizei HTML, CSS e JS puros, na parte do HTML formatei o texto de forma que seja possivel navegar por <code>tab</code>
 ou pelo navbar fixo ao topo, com o CSS eu quis trazer uma estilização compacta, organizada
 de fácil visualização com um tema pixelado, na seção de habilidades 
-eu desenvolvi um sistema interativo de folders e também uma pagina 404 NotFound divertida e animada com CSS, você pode conferir o código no meu 
-<a href="https://codepen.io/sotter" target="_blank">Codepen</a>.
+eu desenvolvi um sistema interativo de folders e também uma pagina 404 NotFound divertida e animada com CSS.
 </p>
