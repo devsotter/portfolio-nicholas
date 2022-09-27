@@ -1,7 +1,10 @@
 @media (max-width: 1195px) {
- .tag {
-  display: none;
- }
+  .contato-email p {
+    height: 96%;
+  }
+  .tag {
+    display: none;
+  }
 }
 @media (max-width: 947px) {
   .sobre-img {
@@ -27,8 +30,8 @@
     width: 95%;
   }
 
-  .contato p {
-    margin-top: 60px;
+  .contato-info {
+    margin-bottom: 60px;
   }
 }
 
@@ -60,9 +63,11 @@
 
 @media (max-width: 470px) {
   .conteudo-main {
-    text-align: center;
-    font-size: clamp(3rem, 10vw, 2rem);
+    align-items: center;
+    font-size: clamp(3.5rem, 10vw, 2rem);
+    line-height: 1.2;
   }
+
   .icones-skills {
     display: none;
   }

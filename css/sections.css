@@ -1,4 +1,5 @@
 .sobre {
+  flex: 2;
   justify-content: center;
   width: 100%;
   max-width: 1200px;
@@ -8,11 +9,9 @@
 }
 
 .sobre-info {
-  flex: 2 2 500px;
   font-size: 2.2rem;
   padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px;
   background-color: #2222222c;
 }
 
@@ -22,6 +21,15 @@
   line-height: 3rem;
   margin: 20px 10px;
 }
+.sobre-img img {
+  width: 400px;
+  height: 93%;
+  padding: 10px;
+  flex: 2 2 500px;
+  object-fit: cover;
+  background-color: #2222222c;
+  margin: 10px;
+}
 
 .icones-skills {
   display: flex;
@@ -30,7 +38,7 @@
   margin-bottom: 3px;
 }
 
-.icones-skills>img {
+.icones-skills > img {
   background-color: #2222222c;
   width: 120px;
   height: 120px;
@@ -91,13 +99,6 @@
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 10px;
-}
-
-.sobre-img img {
-  object-fit: cover;
-  background-color: #2222222c;
-  height: 400px;
-  margin: 0 10px;
 }
 
 .caixa {
@@ -235,11 +236,19 @@
 }
 
 .contato-email p {
-  text-align: center;
-  font-size: 25rem;
-  padding: 0 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
   margin: 10px;
+  padding: 10px;
+  font-size: 20rem;
+  height: 94.5%;
   background-color: #2222222c;
+  color: #2c2c2c;
+}
+.conteudo {
+  flex: 2 500px;
 }
 
 .contato a {

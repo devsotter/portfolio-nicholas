@@ -30,7 +30,7 @@
   transition: transform 0.2s linear;
 }
 
-.checkbox:checked+.label .ball {
+.checkbox:checked + .label .ball {
   transform: translateX(27px);
 }
 
@@ -61,9 +61,17 @@
 .dark header {
   background-color: #f0f0f0;
 }
-
-.dark nav a {
+.dark .logo {
   color: #2c2c2c;
+}
+.dark .nav-menu a {
+  color: #2c2c2c;
+}
+@media (max-width: 768px) {
+  .dark .nav-menu a {
+    color: #2c2c2c;
+    border: 1px solid #2c2c2c;
+  }
 }
 
 .dark .conteudo-main {
@@ -82,7 +90,6 @@
 
 .dark .sobre img {
   background-color: #4b4b4b;
-
 }
 
 .dark h3 {
@@ -130,7 +137,7 @@
 .dark .codepen {
   background-color: #4b4b4b;
   box-shadow: 5px 5px #ffd700, 10px 10px #f0f0f0;
-  border: 1px dashed #f0f0f0
+  border: 1px dashed #f0f0f0;
 }
 
 .dark .icones-skills img {

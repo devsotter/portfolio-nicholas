@@ -7,11 +7,17 @@
 }
 
 .conteudo-main {
-  line-height: 1;
+  font-family: "DotGothic16", sans-serif;
+  line-height: 6rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   flex: 2;
   margin: 10px;
   padding: 10px;
-  font-size: clamp(4rem, 10vw, 2rem);
+  font-size: clamp(3.5rem, 10vw, 2rem);
   background-color: #2222222c;
   color: #2c2c2c;
 }
@@ -20,16 +26,15 @@
   color: #ffd700;
   text-shadow: 1px 1px #2c2c2c;
 }
+
 .tag {
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
-   width: 400px; 
+  width: 400px;
   margin: 10px;
   padding: 10px;
-    font-size: 15rem;
+  font-size: 15rem;
   background-color: #2222222c;
   color: #2c2c2c;
 }
