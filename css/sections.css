@@ -93,9 +93,9 @@
   background-color: #2222222c;
   max-width: 400px;
   padding: 10px;
-  margin: 10px 10px 20px 10px;
+  margin: 10px;
   background-color: #2222222c;
-  box-shadow: 5px 5px #ffd700, 10px 10px #2c2c2c;
+  box-shadow: 5px 5px #ffd700;
   border: 1px dashed #2c2c2c;
 }
 
