@@ -217,6 +217,7 @@
   background: #ffd700;
   box-shadow: 3px 3px 3px #2c2c2c;
   border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
