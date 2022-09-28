@@ -9,15 +9,10 @@
 }
 
 .sobre-info {
-  height: 100%;
   font-size: 2.2rem;
   padding: 10px;
   margin: 10px;
   background-color: #2222222c;
-}
-.conteudo-sobre {
-  flex: 2 500px;
-  margin-bottom: 20px;
 }
 
 .sobre-info p {
@@ -28,8 +23,8 @@
 }
 .sobre-img img {
   width: 400px;
-  height: 95.5%;
-  padding: 5px;
+  height: 93%;
+  padding: 10px;
   flex: 2 2 500px;
   object-fit: cover;
   background-color: #2222222c;
@@ -93,7 +88,7 @@
   background-color: #2222222c;
   max-width: 400px;
   padding: 10px;
-  margin: 10px 10px 20px 10px;
+  margin: 10px;
   background-color: #2222222c;
   box-shadow: 5px 5px #ffd700, 10px 10px #2c2c2c;
   border: 1px dashed #2c2c2c;
@@ -164,6 +159,7 @@
 }
 
 .flex {
+  margin-top: 60px;
   margin-left: 20px;
   display: flex;
   justify-content: space-around;
@@ -226,8 +222,7 @@
 }
 
 .contato-info {
-  height: 100%;
-  flex: 2 500px;
+  flex: 2 2 500px;
   font-size: 2.2rem;
   padding: 10px;
   margin: 10px;
@@ -241,7 +236,6 @@
 }
 
 .contato-email p {
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,6 +243,7 @@
   margin: 10px;
   padding: 10px;
   font-size: 20rem;
+  height: 94.5%;
   background-color: #2222222c;
   color: #2c2c2c;
 }

@@ -1,27 +1,37 @@
-@media (max-width: 1100px) {
-  .conteudo-main {
-    font-size: clamp(3rem, 10vw, 2rem);
-  }
-}
-@media (max-width: 930px) {
-  .skills-info {
-    margin-bottom: 60px;
+@media (max-width: 1195px) {
+  .contato-email p {
+    height: 96%;
   }
   .tag {
     display: none;
   }
-  .contato-email p {
-    display: none;
+}
+@media (max-width: 947px) {
+  .sobre-img {
+    margin-top: 60px;
   }
 }
 
 @media (max-width: 900px) {
+  .conteudo-main {
+    font-size: clamp(3rem, 10vw, 2rem);
+  }
+  .caixa {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 845px) {
   .dica {
     display: none;
   }
 
   .sobre img {
-    margin-top: 40px;
+    width: 95%;
+  }
+
+  .contato-info {
+    margin-bottom: 60px;
   }
 }
 
@@ -59,6 +69,9 @@
   }
 
   .icones-skills {
+    display: none;
+  }
+  .contato-email p {
     display: none;
   }
 }

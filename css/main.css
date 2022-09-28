@@ -8,7 +8,8 @@
 
 .conteudo-main {
   font-family: "DotGothic16", sans-serif;
-  line-height: 1;
+  line-height: 6rem;
+  text-align: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
