@@ -16,6 +16,7 @@
   margin: 10px;
   background-color: #2222222c;
 }
+
 .conteudo-sobre {
   flex: 2 500px;
   margin-bottom: 20px;
@@ -27,27 +28,35 @@
   line-height: 3rem;
   margin: 20px 10px;
 }
+
 .sobre-img img {
   width: 400px;
   height: 95.2%;
-  padding: 5px;
+  padding: 2px;
   flex: 2 2 500px;
   object-fit: cover;
   background-color: #2222222c;
   margin: 10px;
 }
 
+.caixa {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .icones-skills {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  margin-bottom: 3px;
 }
 
 .icones-skills > img {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
   background-color: #2222222c;
-  width: 120px;
-  height: 120px;
 }
 
 @keyframes float {
@@ -70,6 +79,7 @@
 .skills {
   justify-content: center;
   width: 100%;
+  height: 100%;
   max-width: 1200px;
   margin: 60px auto;
   display: flex;
@@ -105,11 +115,6 @@
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 10px;
-}
-
-.caixa {
-  display: flex;
-  flex-direction: column-reverse;
 }
 
 .projetos {
@@ -154,6 +159,7 @@
   background-color: #f3f2f2;
   transition: 0.3s ease-in-out;
 }
+
 .msg:hover {
   z-index: 10;
 }
@@ -244,7 +250,7 @@
 }
 
 .contato-info p {
-  font-size: 4rem;
+  font-size: clamp(3rem, 10vw, 2rem);
   line-height: 4.5rem;
   margin: 20px 10px;
 }
@@ -261,6 +267,7 @@
   background-color: #2222222c;
   color: #2c2c2c;
 }
+
 .conteudo {
   flex: 2 500px;
 }

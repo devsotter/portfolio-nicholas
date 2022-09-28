@@ -1,9 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="250" height="150" viewBox="0 0 250 150">
-  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-602 -293)">
-    <rect id="Retângulo_1" data-name="Retângulo 1" width="50" height="50" transform="translate(702 293)" fill="#2c2c2c"/>
-    <rect id="Retângulo_6" data-name="Retângulo 6" width="50" height="50" transform="translate(652 343)" fill="#2c2c2c"/>
-    <rect id="Retângulo_8" data-name="Retângulo 8" width="50" height="50" transform="translate(602 393)" fill="#2c2c2c"/>
-    <rect id="Retângulo_7" data-name="Retângulo 7" width="50" height="50" transform="translate(802 393)" fill="#2c2c2c"/>
-    <rect id="Retângulo_2" data-name="Retângulo 2" width="50" height="50" transform="translate(752 343)" fill="#2c2c2c"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="15" viewBox="0 0 50 25">
+  <path id="Polígono_8" data-name="Polígono 8" d="M22.172,2.828a4,4,0,0,1,5.657,0L43.172,18.172A4,4,0,0,1,40.343,25H9.657a4,4,0,0,1-2.828-6.828Z" fill="#2c2c2c"/>
 </svg>

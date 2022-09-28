@@ -92,7 +92,8 @@ hr {
 .codepen a,
 .sobre-info a,
 .projetos-info a,
-.contato-info a {
+.contato-info a,
+.contato-email a {
   font-weight: bold;
   background-color: #ffd700;
   text-decoration-line: underline;
@@ -109,6 +110,7 @@ hr {
 .git a:hover {
   filter: grayscale(20%);
 }
+
 .sobre-info a:hover {
   filter: grayscale(20%);
 }
