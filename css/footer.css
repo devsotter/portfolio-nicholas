@@ -24,9 +24,12 @@
 
 .icones-footer {
   margin: 10px 0;
+  gap: 20px;
   flex-wrap: wrap;
   display: flex;
-  gap: 20px;
+}
+.icones-footer a {
+  padding: 5px;
 }
 
 .icones-footer a {

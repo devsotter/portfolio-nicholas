@@ -26,6 +26,10 @@ a {
   padding: 0px;
 }
 
+.conteudo {
+  flex: 2 500px;
+}
+
 body {
   padding-top: 70px;
   background-color: #f0f0f0;
