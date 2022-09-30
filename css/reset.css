@@ -52,15 +52,57 @@ h6 {
   margin: 10px;
   font-weight: 300;
 }
-
+h1::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
+}
+h2::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
+}
+h3::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
+}
+h4::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
+}
+h5::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
+}
+h6::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
+}
+p::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
+}
+::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
+}
+img::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
+}
 ul {
   list-style: none;
 }
-
+span::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
+}
 a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: #2c2c2c;
+}
+a::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
 }
 
 img {
