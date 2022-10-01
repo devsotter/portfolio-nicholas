@@ -1,30 +1,50 @@
 @media (max-width: 1100px) {
   .conteudo-main {
-    font-size: clamp(3rem, 10vw, 2rem);
+    font-size: clamp(5rem, 10vw, 2rem);
+  }
+}
+
+@media (max-width: 970px) {
+  .flex {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-left: 20px;
+  }
+  .msg {
+    top: 55px;
+    left: 4px;
   }
 }
 
 @media (max-width: 932px) {
   .skills-info {
-    margin-bottom: 120px;
+    margin-bottom: 100px;
   }
 
   .tag {
     display: none;
   }
 
-  .contato-email p {
+  .contato-arroba {
     display: none;
+  }
+
+  .icones-skills {
+    display: none;
+  }
+
+  .img-sobre {
+    display: none;
+  }
+
+  .conteudo-main {
+    height: 300px;
   }
 }
 
 @media (max-width: 900px) {
   .dica {
     display: none;
-  }
-
-  .sobre-img {
-    margin-top: 120px;
   }
 }
 
@@ -47,27 +67,9 @@
   }
 }
 
-@media (max-width: 610px) {
-  .icones-skills img {
-    width: 90px;
-    height: 90px;
-  }
-}
-
 @media (max-width: 500px) {
-  .conteudo-main h1 {
-    font-size: clamp(5rem, 10vw, 2rem);
-  }
-  .conteudo-main h2 {
-    font-size: clamp(2rem, 10vw, 2rem);
-  }
-
-  .sobre-img img {
-    width: 95%;
-  }
-
-  .icones-skills {
-    display: none;
+  .conteudo-main {
+    font-size: clamp(4rem, 10vw, 2rem);
   }
 }
 
@@ -89,7 +91,7 @@
   }
 
   .msg {
-    width: 229px;
+    width: 240px;
   }
 }
 

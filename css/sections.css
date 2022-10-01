@@ -1,40 +1,33 @@
 .sobre {
-  height: 100%;
-  flex: 2;
   justify-content: center;
   width: 100%;
   max-width: 1200px;
-  margin: 120px auto;
+  margin: 100px auto;
   display: flex;
   flex-wrap: wrap;
 }
-.sobre-info {
-  height: 100%;
-  font-size: 2.2rem;
-  padding: 10px;
-  margin: 10px;
-  background-color: #2222222c;
-}
 
-.conteudo-sobre {
-  flex: 2 500px;
-  margin-bottom: 20px;
+.sobre-info {
+  background-color: #2222222c;
+  flex: 2;
+  margin: 10px;
+  padding: 10px;
 }
 
 .sobre-info p {
-  text-indent: 15px;
+  text-indent: 10px;
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 10px;
 }
 
-.sobre-img img {
-  width: 400px;
-  height: 95.2%;
-  padding: 2px;
-  flex: 2 2 500px;
-  object-fit: cover;
+.img-sobre {
   background-color: #2222222c;
+  background-image: url(../img/perfil-pixel.png);
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  padding: 10px;
   margin: 10px;
 }
 
@@ -80,20 +73,20 @@
   width: 100%;
   height: 100%;
   max-width: 1200px;
-  margin: 120px auto;
+  margin: 100px auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .skills-info {
-  flex: 2 2 450px;
+  flex: 2 500px;
   padding: 10px;
   margin: 10px;
   background-color: #2222222c;
 }
 
 .skills-info p {
-  text-indent: 15px;
+  text-indent: 10px;
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 10px;
@@ -110,7 +103,7 @@
 }
 
 .codepen p {
-  text-indent: 15px;
+  text-indent: 10px;
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 10px;
@@ -119,7 +112,7 @@
 .projetos {
   width: 100%;
   max-width: 1200px;
-  margin: 120px auto;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -231,35 +224,34 @@
   justify-content: center;
   width: 100%;
   max-width: 1200px;
-  margin: 120px auto;
+  margin: 100px auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .contato-info {
   height: 100%;
-  flex: 2 500px;
-  font-size: 2.2rem;
-  padding: 10px;
-  margin: 10px;
   background-color: #2222222c;
+  flex: 2;
+  margin: 10px;
+  padding: 10px;
 }
 
 .contato-info p {
-  font-size: clamp(3rem, 10vw, 2rem);
-  line-height: 4.5rem;
+  font-size: 3rem;
+  text-indent: 10px;
+  font-size: 3rem;
   margin: 20px 10px;
 }
 
-.contato-email p {
-  height: 100%;
+.contato-arroba {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  margin: 10px;
-  padding: 10px;
-  font-size: 20rem;
+  text-align: center;
   background-color: #2222222c;
-  color: #2c2c2c;
+  width: 400px;
+  font-size: 20rem;
+  padding: 10px;
+  margin: 10px;
 }

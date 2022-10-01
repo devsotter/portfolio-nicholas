@@ -87,7 +87,7 @@
   color: #f0f0f0;
 }
 
-.dark .sobre img {
+.dark .img-sobre {
   background-color: #4b4b4b;
 }
 
@@ -157,6 +157,9 @@
 .dark .contato p {
   background-color: #4b4b4b;
   color: #f0f0f0;
+}
+.dark .contato-arroba {
+  background-color: #4b4b4b;
 }
 
 .dark footer {
