@@ -39,8 +39,12 @@ hamburguer.addEventListener("click", () => {
 /*Scroll Reveal*/
 
 window.sr = ScrollReveal({ reset: true });
-ScrollReveal().reveal(".area-3", { delay: 200 });
-ScrollReveal().reveal(".area-2", { delay: 200 });
-ScrollReveal().reveal(".area-4", { delay: 200 });
-ScrollReveal().reveal(".area-5", { delay: 200 });
-ScrollReveal().reveal(".area-1", { delay: 200 });
+ScrollReveal().reveal(".conteudo-main", { delay: 400 });
+ScrollReveal().reveal(".tag", { delay: 500 });
+ScrollReveal().reveal(".sobre-info", { delay: 400 });
+ScrollReveal().reveal(".img-sobre", { delay: 500 });
+ScrollReveal().reveal(".skills-info", { delay: 400 });
+ScrollReveal().reveal(".caixa", { delay: 500 });
+ScrollReveal().reveal(".projetos-info", { delay: 400 });
+ScrollReveal().reveal(".contato-info", { delay: 400 });
+ScrollReveal().reveal(".contato-arroba", { delay: 500 });

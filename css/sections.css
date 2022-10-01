@@ -15,7 +15,6 @@
 }
 
 .sobre-info p {
-  text-indent: 10px;
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 10px;
@@ -86,7 +85,6 @@
 }
 
 .skills-info p {
-  text-indent: 10px;
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 10px;
@@ -103,7 +101,6 @@
 }
 
 .codepen p {
-  text-indent: 10px;
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 10px;
@@ -162,6 +159,7 @@
 }
 
 .flex {
+  margin-top: 60px;
   margin-left: 20px;
   display: flex;
   justify-content: space-around;
@@ -239,7 +237,6 @@
 
 .contato-info p {
   font-size: 3rem;
-  text-indent: 10px;
   font-size: 3rem;
   margin: 20px 10px;
 }
