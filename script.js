@@ -35,16 +35,3 @@ hamburguer.addEventListener("click", () => {
   hamburguer.classList.toggle("active");
   navMenu.classList.toggle("active");
 });
-
-/*Scroll Reveal*/
-
-window.sr = ScrollReveal({ reset: true });
-ScrollReveal().reveal(".conteudo-main", { delay: 100 });
-ScrollReveal().reveal(".tag", { delay: 200 });
-ScrollReveal().reveal(".sobre-info", { delay: 100 });
-ScrollReveal().reveal(".img-sobre", { delay: 200 });
-ScrollReveal().reveal(".skills-info", { delay: 100 });
-ScrollReveal().reveal(".caixa", { delay: 200 });
-ScrollReveal().reveal(".projetos-info", { delay: 100 });
-ScrollReveal().reveal(".contato-info", { delay: 100 });
-ScrollReveal().reveal(".contato-arroba", { delay: 200 });
