@@ -25,10 +25,6 @@ a {
   padding: 0px;
 }
 
-.conteudo {
-  flex: 2 500px;
-}
-
 body {
   margin-top: 180px;
   background-color: #f0f0f0;
@@ -83,17 +79,11 @@ p::selection {
   background: #2c2c2c;
   color: #f0f0f0;
 }
-img::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
-}
+
 ul {
   list-style: none;
 }
-span::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
-}
+
 a {
   text-decoration: none;
   color: #2c2c2c;
