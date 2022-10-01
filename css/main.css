@@ -8,6 +8,7 @@
 }
 
 .conteudo-main {
+  text-align: center;
   line-height: 1;
   justify-content: center;
   display: flex;
@@ -24,18 +25,19 @@
 .conteudo-main span {
   font-size: clamp(4rem, 10vw, 2rem);
   width: 100%;
-  text-align: start;
 }
 
 .conteudo-main h1 {
-  font-size: clamp(9.5rem, 10vw, 2rem);
+  font-size: clamp(8rem, 10vw, 2rem);
   color: #ffd700;
   text-shadow: 1px 1px #2c2c2c;
+  width: 100%;
 }
 
 .conteudo-main h2 {
   font-size: clamp(4rem, 10vw, 2rem);
   font-weight: normal;
+  width: 100%;
 }
 
 .tag {
