@@ -4,11 +4,10 @@
   justify-content: center;
   width: 100%;
   max-width: 1200px;
-  margin: 60px auto;
+  margin: 120px auto;
   display: flex;
   flex-wrap: wrap;
 }
-
 .sobre-info {
   height: 100%;
   font-size: 2.2rem;
@@ -81,7 +80,7 @@
   width: 100%;
   height: 100%;
   max-width: 1200px;
-  margin: 60px auto;
+  margin: 120px auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -120,7 +119,7 @@
 .projetos {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 120px auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -232,7 +231,7 @@
   justify-content: center;
   width: 100%;
   max-width: 1200px;
-  margin: 60px auto;
+  margin: 120px auto;
   display: flex;
   flex-wrap: wrap;
 }
