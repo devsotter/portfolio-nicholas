@@ -69,8 +69,14 @@
 }
 
 @media (max-width: 500px) {
-  .conteudo-main {
-    font-size: clamp(4rem, 10vw, 2rem);
+  .conteudo-main h1 {
+    font-size: clamp(5rem, 10vw, 2rem);
+  }
+  .conteudo-main span {
+    font-size: clamp(3rem, 10vw, 2rem);
+  }
+  .conteudo-main h2 {
+    font-size: clamp(3rem, 10vw, 2rem);
   }
 }
 
