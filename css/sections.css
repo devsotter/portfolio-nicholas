@@ -205,6 +205,9 @@
   border-top-left-radius: 0;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
 }
 
 .frente::before {
