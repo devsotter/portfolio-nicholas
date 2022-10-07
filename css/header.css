@@ -6,7 +6,6 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 10px;
 }
 
 .dt {
@@ -16,7 +15,7 @@ header {
 
 .navbar {
   font-size: 1.5rem;
-  padding: 10px;
+  padding: 3px;
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
@@ -30,7 +29,7 @@ header {
 .nav-menu a {
   text-transform: uppercase;
   color: #f0f0f0;
-  padding: 10px;
+  padding: 2px;
 }
 
 .nav-menu a:hover {
