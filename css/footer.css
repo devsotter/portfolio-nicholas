@@ -18,11 +18,11 @@
 }
 
 .footer p {
-  margin: 10px 0;
+  margin: 10px;
 }
 
 .icones-footer {
-  margin: 10px 0;
+  margin: 10px;
   gap: 20px;
   flex-wrap: wrap;
   display: flex;

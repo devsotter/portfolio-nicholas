@@ -4,6 +4,8 @@
 }
 
 .label {
+  margin: 0 10px;
+  border: 1px solid #5c5c5c;
   font-size: 1.5rem;
   background-color: #3c3c3c;
   border-radius: 50px;
@@ -22,7 +24,7 @@
   background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
-  left: 0px;
+  left: -1px;
   height: 25px;
   width: 25px;
   transition: transform 0.2s linear;
@@ -40,12 +42,8 @@
   background-color: #f0f0f0;
 }
 
-.fa-moon {
-  color: #f0f0f0;
-}
-
-.fa-sun {
-  color: #ffd700;
+.label img {
+  width: 16px;
 }
 
 .dark,

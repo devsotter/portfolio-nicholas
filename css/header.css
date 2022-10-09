@@ -38,6 +38,7 @@ header {
 }
 
 .logo {
+  margin: 0 10px;
   align-items: center;
   display: flex;
   font-size: 2rem;
