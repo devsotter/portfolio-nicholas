@@ -238,6 +238,7 @@
 }
 
 .contato-info p {
+  height: 100%;
   font-size: 3rem;
   font-size: 3rem;
   margin: 20px 10px;
@@ -247,10 +248,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   background-color: #2222222c;
   width: 400px;
   font-size: 20rem;
   padding: 10px;
   margin: 10px;
+}
+.contato-arroba .arroba {
+  transform: translateY(-21px);
 }
