@@ -15,6 +15,7 @@
 }
 
 .sobre-info p {
+  text-align: justify;
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 10px;
@@ -72,7 +73,7 @@
   width: 100%;
   height: 100%;
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -85,6 +86,7 @@
 }
 
 .skills-info p {
+  text-align: justify;
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 10px;
@@ -100,6 +102,7 @@
 }
 
 .codepen p {
+  text-align: justify;
   font-size: 2.5rem;
   line-height: 3.2rem;
   margin: 20px 10px;
@@ -125,6 +128,7 @@
 }
 
 .projetos-info p {
+  text-align: justify;
   margin: 10px;
 }
 
@@ -224,7 +228,7 @@
   justify-content: center;
   width: 100%;
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -238,6 +242,7 @@
 }
 
 .contato-info p {
+  text-align: justify;
   height: 100%;
   font-size: 3rem;
   font-size: 3rem;

@@ -1,9 +1,3 @@
-@media (max-width: 1100px) {
-  .conteudo-main {
-    font-size: clamp(5rem, 10vw, 2rem);
-  }
-}
-
 @media (max-width: 970px) {
   .flex {
     max-width: 300px;
@@ -18,10 +12,6 @@
 }
 
 @media (max-width: 932px) {
-  .skills-info {
-    margin-bottom: 100px;
-  }
-
   .tag {
     display: none;
   }
@@ -30,21 +20,7 @@
     display: none;
   }
 
-  .icones-skills {
-    display: none;
-  }
-
   .img-sobre {
-    display: none;
-  }
-
-  .conteudo-main {
-    height: 300px;
-  }
-}
-
-@media (max-width: 900px) {
-  .dica {
     display: none;
   }
 }
@@ -53,10 +29,6 @@
   html {
     font-size: 50%;
     padding-top: 0px;
-  }
-
-  header .label {
-    font-size: 2rem;
   }
 
   .topo {
@@ -70,7 +42,7 @@
 
 @media (max-width: 500px) {
   .conteudo-main h1 {
-    font-size: clamp(5rem, 10vw, 2rem);
+    font-size: clamp(6rem, 10vw, 2rem);
   }
   .conteudo-main span {
     font-size: clamp(3rem, 10vw, 2rem);
