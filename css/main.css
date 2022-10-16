@@ -24,20 +24,20 @@
 
 .conteudo-main span {
   font-size: clamp(4rem, 10vw, 2rem);
-  width: 100%;
+  margin: 10px;
 }
 
 .conteudo-main h1 {
   font-size: clamp(9rem, 10vw, 2rem);
   color: #ffd700;
   text-shadow: 1px 1px #2c2c2c;
-  width: 100%;
+  margin: 10px;
 }
 
 .conteudo-main h2 {
   font-size: clamp(4rem, 10vw, 2rem);
   font-weight: normal;
-  width: 100%;
+  margin: 10px;
 }
 
 .tag {
