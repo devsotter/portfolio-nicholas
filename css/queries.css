@@ -26,14 +26,6 @@
 }
 
 @media (max-width: 760px) {
-  body {
-    margin-top: 60px;
-  }
-  html {
-    font-size: 50%;
-    padding-top: 0px;
-  }
-
   .topo {
     display: none;
   }
@@ -45,12 +37,18 @@
 
 @media (max-width: 500px) {
   .conteudo-main h1 {
-    font-size: clamp(8rem, 10vw, 2rem);
+    font-size: clamp(6rem, 10vw, 2rem);
   }
   .conteudo-main span {
     display: none;
   }
   .conteudo-main h2 {
+    font-size: clamp(2rem, 10vw, 2rem);
+  }
+  .contato-info p {
+    font-size: clamp(2rem, 10vw, 2rem);
+  }
+  .contato-info a {
     font-size: clamp(2rem, 10vw, 2rem);
   }
 }
