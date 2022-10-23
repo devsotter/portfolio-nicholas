@@ -75,6 +75,7 @@ header {
     margin-top: 110px;
   }
   .hamburguer {
+    margin: 0 10px;
     display: block;
     z-index: 2;
   }
