@@ -37,7 +37,7 @@ hamburguer.addEventListener("click", () => {
 });
 
 
-/*modal*/
+/*Modal*/
 
 const openModalButton = document.querySelector("#open-modal");
 const closeModalButton = document.querySelector("#close-modal");
