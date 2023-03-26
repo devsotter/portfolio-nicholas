@@ -5,6 +5,7 @@
     padding-left: 20px;
     margin-top: 60px;
   }
+
   .msg {
     top: 55px;
     left: 4px;
@@ -26,6 +27,10 @@
 }
 
 @media (max-width: 760px) {
+  .corpo h1 {
+    font-size: 2.5rem;
+  }
+
   .topo {
     display: none;
   }
@@ -36,18 +41,26 @@
 }
 
 @media (max-width: 500px) {
+  .corpo h1 {
+    font-size: 2rem;
+  }
+
   .conteudo-main h1 {
     font-size: clamp(6rem, 10vw, 2rem);
   }
+
   .conteudo-main span {
     display: none;
   }
+
   .conteudo-main h2 {
     font-size: clamp(2rem, 10vw, 2rem);
   }
+
   .contato-info p {
     font-size: clamp(2rem, 10vw, 2rem);
   }
+
   .contato-info a {
     font-size: clamp(2rem, 10vw, 2rem);
   }

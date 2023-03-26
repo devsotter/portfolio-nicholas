@@ -51,3 +51,7 @@
   background-color: #2222222c;
   color: #2c2c2c;
 }
+
+.tag img {
+  width: 300px;
+}

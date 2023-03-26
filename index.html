@@ -11,8 +11,9 @@
   <name="keywords"
     content="sites, web, desenvolvimento, frontend, nicholas sotter, ui designer, programador, devsotter, front-end, designer, ui, nicholas, website, portfólio" />
   <meta name="viewport" content="initial-scale=1">
-  <meta name="copyright" content="nicholas sotter 2022">
+  <meta name="copyright" content="nicholas sotter 2023">
   <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
 
   <title>Nicholas Sotter</title>
 </head>
@@ -53,10 +54,7 @@
         <h2>Desenvolvedor front-end. </h2>
       </div>
       <div class="tag">
-        <span>
-          < </span>
-            <span>/>
-            </span>
+        <img src="img/coding.svg" alt="">
       </div>
     </div>
 
@@ -105,37 +103,60 @@
   <section class="projetos" id="projetos">
     <div class="projetos-info">
       <h5>projetos</h5>
+      <div id="fade" class="hide"></div>
+      <div id="modal" class="hide">
+        <div class="modal-header">
+          <h1>Catarina Pedreira.</h1>
+
+          <button id="close-modal">Fechar</button>
+        </div>
+        <div class="modal-body">
+          <a href="https://devsotter.github.io/portfolio-catarina/" target="_blank"> <img class="site-1"
+              src="img/site-1.png" alt=""></a>
+          <p>
+            Projeto original desenvolvido com HTML, CSS e JS, foi feito para uma amiga estudante de Artes.
+            Foram utilizados nesse projeto efeitos de scroll reveal, menu hamburguer responsivo, transiçoes de slide
+            autimatico e modais com JavaScript.
+          <p>Extrai ao maximo oque eu aprendi de noçoes em UI design e CSS para poder criar algo diferente, intuitivo,
+            moderno e responsivo.
+            Esse projeto me foi satisfatorio de fazer pois nele pude colocar em prova o conhecimento que adquiri no
+            tempo em que estive estudando.</p>
+          </p>
+        </div>
+      </div>
       <hr>
       <p class="dica">*Passe o cursor no conteúdo da pasta*</p>
       <div class="flex">
 
         <div class="box">
           <div class="atras"></div>
-          <a href="404.html">
+          <span id="open-modal" class="botao">
             <div class="msg">
-              <p>Projetos pessoais</p>
+              <p>Portfólio de Artes.</p>
             </div>
-          </a>
+          </span>
           <div class="frente">
           </div>
         </div>
 
         <div class="box">
           <div class="atras"></div>
-          <a href="404.html">
-            <div class="msg">
-              <p>Clones de sites</p>
-            </div>
+          <a href="./404.html" target="_blank"> <span id="open-modal" class="botao">
+              <div class="msg">
+                <p>pegue um café e aguarde.</p>
+              </div>
+            </span>
           </a>
           <div class="frente"></div>
         </div>
 
         <div class="box">
           <div class="atras"></div>
-          <a href="404.html">
-            <div class="msg">
-              <p>Landing Pages</p>
-            </div>
+          <a href="./404.html" target="_blank"> <span id="open-modal" class="botao">
+              <div class="msg">
+                <p>Em desenvolvimento...</p>
+              </div>
+            </span>
           </a>
           <div class="frente"></div>
 
@@ -161,7 +182,7 @@
     </div>
 
     <div class="contato-arroba">
-      <p class="arroba">@</p>
+      <img src="img/arroba.svg" alt="">
     </div>
 
   </section>
@@ -185,8 +206,6 @@
         <a class="icon-mob" href="#"><img class="seta-mob" src="img/seta-mob.svg" alt="icone poligono"></a>
       </nav>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 
 </html>
