@@ -27,11 +27,9 @@
   margin: 10px;
 }
 
-.conteudo-main h1 {
-  font-size: clamp(9rem, 10vw, 2rem);
-  color: #ffd700;
-  text-shadow: 1px 1px #2c2c2c;
+.conteudo-main .nich{
   margin: 10px;
+  display: inline-block;
 }
 
 .conteudo-main .type {
@@ -71,4 +69,14 @@
   height: 300px;
   transform: translateY(-10px);
 
+
+}
+
+#cog2 {
+  margin: 10px;
+width: 90%;
+}
+
+.wordkey {
+  display: none;
 }
