@@ -20,8 +20,8 @@ body {
   background-color: #f0f0f0;
   color: #2c2c2c;
   font-size: 1.6rem;
-  scroll-behavior: smooth;
   transition: 0.2s linear;
+  -webkit-font-smoothing: antialiased;
 }
 
 h3,
@@ -127,22 +127,3 @@ hr {
   text-underline-offset: 2px;
 }
 
-.skills-info a:hover {
-  filter: grayscale(20%);
-}
-
-.git a:hover {
-  filter: grayscale(20%);
-}
-
-.sobre-info a:hover {
-  filter: grayscale(20%);
-}
-
-.codepen a:hover {
-  filter: grayscale(20%);
-}
-
-.contato-info a:hover {
-  filter: grayscale(20%);
-}

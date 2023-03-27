@@ -2,7 +2,6 @@
   .contato-arroba {
     display: none;
   }
-
 }
 
 @media (max-width: 970px) {
@@ -24,7 +23,6 @@
     display: none;
   }
 
-
   .img-sobre {
     display: none;
   }
@@ -33,9 +31,6 @@
 @media (max-width: 760px) {
   .contato-info a {
     font-size: clamp(2em, 10vw, 2rem);
-  }
-  .corpo h1 {
-    font-size: 2.5rem;
   }
 
   .topo {
@@ -48,10 +43,6 @@
 }
 
 @media (max-width: 500px) {
-  .corpo h1 {
-    font-size: 2rem;
-  }
-
   .conteudo-main span {
     display: none;
   }
@@ -59,10 +50,6 @@
   .conteudo-main .type {
     font-size: clamp(1rem, 10vw, 2rem);
   }
-
-
-
-
 }
 
 @media (max-width: 365px) {
