@@ -65,3 +65,14 @@ new Vivus('cog1', {
   duration: 500
 
 })
+
+/*TypeWriter*/
+function typeWriter(elemento) {
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = '';
+  textoArray.forEach((letra, i) => {
+    setTimeout(() => elemento.innerHTML += letra, 75 * i);
+  });
+}
+const titulo = document.querySelector('.type');
+typeWriter(titulo);
