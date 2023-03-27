@@ -52,7 +52,9 @@
   color: #2c2c2c;
 }
 
-.tag img {
+#cog1 {
   width: 300px;
-margin-bottom: 30px;
+  height: 300px;
+  margin-bottom: 20px;
+
 }

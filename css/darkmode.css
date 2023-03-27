@@ -152,7 +152,7 @@
   background-color: #4b4b4b;
 }
 
-.dark .contato p {
+.dark .contato a {
   background-color: #4b4b4b;
   color: #f0f0f0;
 }
@@ -174,4 +174,13 @@
 
 .dark .icones-footer a:hover {
   box-shadow: 0 0 0 0 transparent, inset 6em 3.5em 0 0 transparent;
+}
+.dark #cog{
+  stroke: #f0f0f0;
+  fill: #2c2c2c;
+}
+
+.dark #cog1{
+  stroke: #f0f0f0;
+  fill: #2c2c2c;
 }

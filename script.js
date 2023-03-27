@@ -52,3 +52,16 @@ const toggleModal = () => {
 [openModalButton, closeModalButton, fade].forEach((el) => {
   el.addEventListener("click", () => toggleModal());
 });
+
+
+
+/*SVG Vivus*/
+
+new Vivus('cog', {
+  duration: 500
+
+})
+new Vivus('cog1', {
+  duration: 500
+
+})

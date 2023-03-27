@@ -225,15 +225,17 @@
   padding: 10px;
 }
 
-.contato-info p {
-  text-align: justify;
-  height: 100%;
-  font-size: clamp(3rem, 10vw, 2rem);
-  margin: 20px 10px;
-}
+
 
 .contato-info a {
-  font-size: clamp(3rem, 10vw, 2rem);
+  font-size: clamp(4em, 10vw, 2rem);
+  font-weight: normal;
+text-decoration: none;
+line-height: 3.2em;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: transparent;
 }
 
 .contato-arroba {
@@ -246,9 +248,8 @@
   margin: 10px;
 }
 
-.contato-arroba img {
-  width: 210px;
-  fill: white;
-  transform: translateY(-5px);
-}
 
+#cog {
+  width: 300px;
+  height: 300px;
+}
