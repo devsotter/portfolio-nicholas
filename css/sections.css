@@ -248,4 +248,7 @@
 
 .contato-arroba img {
   width: 210px;
+  fill: white;
+  transform: translateY(-5px);
 }
+
