@@ -1,7 +1,5 @@
 @media (max-width: 1171px) {
-  .contato-arroba {
-    display: none;
-  }
+
 }
 
 @media (max-width: 970px) {
@@ -17,6 +15,11 @@
     left: 4px;
   }
 }
+@media (max-width: 920px) {
+  .contato-arroba {
+display: none;
+  }
+}
 
 @media (max-width: 932px) {
   .tag {
@@ -30,7 +33,7 @@
 
 @media (max-width: 760px) {
   .contato-info a {
-    font-size: clamp(2em, 10vw, 2rem);
+    font-size: 2em;
   }
 
   .topo {

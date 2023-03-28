@@ -240,10 +240,10 @@
 
 
 .contato-info a {
-  font-size: clamp(4em, 10vw, 2rem);
+
+  font-size: 3em;
   font-weight: normal;
-  text-decoration: none;
-line-height: 3.2em;
+  height: 200px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -256,7 +256,6 @@ background-color: transparent;
   justify-content: center;
   align-items: center;
   background-color: #2222222c;
-  width: 400px;
   padding: 10px;
   margin: 10px;
 }
