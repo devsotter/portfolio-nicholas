@@ -43,13 +43,12 @@
 }
 
 @media (max-width: 500px) {
-  .conteudo-main span {
-    display: none;
-  }
+
 
   .conteudo-main .type {
     font-size: clamp(1rem, 10vw, 2rem);
   }
+
 }
 
 @media (max-width: 365px) {

@@ -56,7 +56,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  width: 140%;
   margin: 10px;
   padding: 10px;
   font-size: 15rem;
@@ -64,9 +64,16 @@
   color: #2c2c2c;
 }
 
+
+#cog {
+  width: 300px;
+  height: 300px;
+}
+
+
 #cog1 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   transform: translateY(-10px);
 }
 
@@ -77,4 +84,11 @@ width: 90%;
 
 .wordkey {
   display: none;
+}
+
+.agrupado {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+
 }
