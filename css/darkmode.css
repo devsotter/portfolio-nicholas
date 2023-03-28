@@ -191,3 +191,12 @@
   stroke: #f0f0f0;
   fill: #2c2c2c;
 }
+
+.dark .box-a::before {
+background-color: #f0f0f0;
+
+}
+.dark .contato-info a {
+  background-color: #ffd700;
+  color: #2c2c2c;
+}
