@@ -1,5 +1,7 @@
-@media (max-width: 1171px) {
-
+@media (max-width: 1010px) {
+.contato-arroba {
+  display: none;
+}
 }
 
 @media (max-width: 970px) {
@@ -15,11 +17,8 @@
     left: 4px;
   }
 }
-@media (max-width: 920px) {
-  .contato-arroba {
-display: none;
-  }
-}
+
+
 
 @media (max-width: 932px) {
   .tag {

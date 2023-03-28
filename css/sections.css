@@ -11,7 +11,6 @@
   background-color: #2222222c;
   margin: 10px;
   padding: 10px;
-  
 }
 
 .sobre-info p {
@@ -19,8 +18,8 @@
   font-size: 2.2rem;
   line-height: 3rem;
   margin: 20px 20px;
-
 }
+
 .conteudo-info {
   display: flex;
 }
@@ -34,21 +33,23 @@
   padding: 10px;
   margin: 10px;
 }
+
 .box-1 figcaption {
   width: 100%;
   text-align: center;
 }
+
 .icones-skills {
   flex-wrap: wrap;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-
 }
 
 .skills-info hr {
   margin-bottom: 30px;
 }
+
 .icones-skills img {
   margin: 10px;
   padding: 10px;
@@ -129,7 +130,6 @@
 .projetos-info .git {
   margin: 20px 10px;
   font-size: 2.2rem;
-
 }
 
 .projetos-info .git a {
@@ -222,7 +222,6 @@
 
 .contato {
   justify-content: center;
-  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -230,27 +229,34 @@
 }
 
 .contato-info {
-  height: 100%;
   background-color: #2222222c;
   flex: 2;
   margin: 10px;
   padding: 10px;
 }
 
-
-
-.contato-info a {
-
-  font-size: 3em;
-  font-weight: normal;
+.box-a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 200px;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: transparent;
-
 }
 
+.contato-info a {
+  font-size: 3.5em;
+  font-weight: normal; 
+} 
+
+.box-a::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #2c2c2c;
+display: block;
+margin: 20px;
+
+}
 .contato-arroba {
   display: flex;
   justify-content: center;
@@ -259,4 +265,3 @@ background-color: transparent;
   padding: 10px;
   margin: 10px;
 }
-
