@@ -31,9 +31,7 @@
 }
 
 @media (max-width: 760px) {
-  .contato-info a {
-    font-size: 2em;
-  }
+
 
   .topo {
     display: none;
@@ -44,9 +42,17 @@
   }
 }
 
+@media (max-width: 600px) {
+  .contato-info a {
+    font-size: clamp(2em, 1em + 1vw, 1.5em);
+  }
+}
+
 @media (max-width: 500px) {
 
-
+  .contato-info a {
+    font-size: clamp(1.5em, 1em + 1vw, 1.5em);
+  }
   .conteudo-main .type {
     font-size: clamp(1rem, 10vw, 2rem);
   }

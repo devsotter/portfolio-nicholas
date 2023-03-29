@@ -8,14 +8,15 @@ header {
 }
 
 .dt {
+  width: 60%;
   display: flex;
+  justify-content: end;
   gap: 20px;
 }
 
 .navbar {
   font-size: 1.5rem;
   padding: 3px;
-  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
