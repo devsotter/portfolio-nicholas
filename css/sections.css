@@ -56,7 +56,9 @@
   width: 120px;
   background-color: #2222222c;
 }
-
+.icones-skills img:hover{
+  background-color: #7c7c7c2c;
+}
 .caixa {
   display: flex;
   flex-direction: column-reverse;
@@ -247,17 +249,6 @@
   font-weight: normal; 
 } 
 
-.box-a::before {
-  content: "";
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: #2c2c2c;
-display: block;
-margin-top: 10px;
-margin-right: 10px;
-
-}
 .contato-arroba {
   display: flex;
   justify-content: center;

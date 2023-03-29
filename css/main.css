@@ -77,8 +77,11 @@
 }
 
 #cog2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 10px;
-width: 90%;
+width: 98%;
 }
 
 .wordkey {
