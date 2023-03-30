@@ -49,7 +49,9 @@
 }
 
 @media (max-width: 500px) {
-
+.corpo h1 {
+  font-size: 1.2em;
+}
   .contato-info a {
     font-size: clamp(1.5em, 1em + 1vw, 1.5em);
   }
