@@ -58,15 +58,15 @@ const toggleModal = () => {
 /*SVG Vivus*/
 
 new Vivus('cog', {
-  duration: 300
+  duration: 400
 
 })
 new Vivus('cog1', {
-  duration: 300
+  duration: 400
 
 })
 new Vivus('cog2', {
-  duration: 3000
+  duration: 2500
 
 })
 
