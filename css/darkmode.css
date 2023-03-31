@@ -181,17 +181,17 @@
 
 .dark #cog {
   stroke: #f0f0f0;
-  fill: #2c2c2c;
+  fill: #ffd700;
 }
 
 .dark #cog1 {
   stroke: #f0f0f0;
-  fill: #2c2c2c;
+  fill: #ffd700;
 }
 
 .dark #cog2 {
   stroke: #f0f0f0;
-  fill: #2c2c2c;
+  fill: #ffd700;
 }
 
 .dark .box-a::before {
