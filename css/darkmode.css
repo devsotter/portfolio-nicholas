@@ -137,9 +137,11 @@
 }
 
 .dark .icones-skills img {
-  background-color: #4b4b4b;
+  background-color: #646464;
 }
-
+.dark .icones-skills img:hover {
+  background-color: #787878;
+}
 .dark .projetos-info {
   background-color: #4b4b4b;
 }
@@ -193,10 +195,13 @@
 }
 
 .dark .box-a::before {
-background-color: #f0f0f0;
-
+  background-color: #f0f0f0;
 }
 .dark .contato-info a {
   background-color: #ffd700;
   color: #2c2c2c;
+}
+
+.dark .pixel {
+  background-color: #4b4b4b;
 }

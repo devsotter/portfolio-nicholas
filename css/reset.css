@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Prompt:wght@100;200;400&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;1,200&family=Poppins:ital,wght@0,200;1,100&family=VT323&display=swap');
 * {
   border-radius: 4px;
   box-sizing: border-box;
@@ -8,7 +8,7 @@
 }
 
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: normal;
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -28,6 +28,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   box-shadow: 5px 5px #2c2c2c;
   padding: 0 5px;

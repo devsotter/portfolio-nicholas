@@ -36,7 +36,6 @@ hamburguer.addEventListener("click", () => {
   navMenu.classList.toggle("active");
 });
 
-
 /*Modal*/
 
 const openModalButton = document.querySelector("#open-modal");
@@ -53,30 +52,25 @@ const toggleModal = () => {
   el.addEventListener("click", () => toggleModal());
 });
 
-
-
 /*SVG Vivus*/
 
-new Vivus('cog', {
-  duration: 400
-
-})
-new Vivus('cog1', {
-  duration: 400
-
-})
-new Vivus('cog2', {
-  duration: 2500
-
-})
+new Vivus("cog", {
+  duration: 600,
+});
+new Vivus("cog1", {
+  duration: 300,
+});
+new Vivus("cog2", {
+  duration: 2500,
+});
 
 /*TypeWriter*/
 function typeWriter(elemento) {
-  const textoArray = elemento.innerHTML.split('');
-  elemento.innerHTML = '';
+  const textoArray = elemento.innerHTML.split("");
+  elemento.innerHTML = "";
   textoArray.forEach((letra, i) => {
-    setTimeout(() => elemento.innerHTML += letra, 75 * i);
+    setTimeout(() => (elemento.innerHTML += letra), 75 * i);
   });
 }
-const titulo = document.querySelector('.type');
+const titulo = document.querySelector(".type");
 typeWriter(titulo);
