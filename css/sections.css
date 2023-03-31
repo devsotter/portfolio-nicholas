@@ -27,6 +27,17 @@
   width: 100%;
   text-align: center;
 }
+.box-1 figcaption::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #ffd700;
+  border: 1px solid #2c2c2c;
+  display: block;
+  display: inline-block;
+  margin-right: 10px;
+
+}
 
 .icones-skills {
   flex-wrap: wrap;
@@ -243,11 +254,13 @@
   content: "";
   width: 15px;
   height: 15px;
-  background-color: #2c2c2c;
+  background-color: #ffd700;
+  border: 1px solid #2c2c2c;
   display: block;
 }
 
 .contato-arroba {
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;

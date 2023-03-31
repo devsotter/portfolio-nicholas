@@ -195,13 +195,14 @@
 }
 
 .dark .box-a::before {
-  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
 }
+
 .dark .contato-info a {
   background-color: #ffd700;
   color: #2c2c2c;
 }
 
-.dark .pixel {
-  background-color: #4b4b4b;
+.dark .box-1 figcaption::before {
+  border: 1px solid #f0f0f0;
 }
