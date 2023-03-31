@@ -43,7 +43,7 @@
   flex-wrap: wrap;
   margin: 0 auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .skills-info hr {
@@ -163,7 +163,7 @@
   margin-top: 60px;
   margin-left: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 

@@ -42,6 +42,8 @@
   opacity: 1;
   display: inline-block;
   animation: blink 0.7s infinite;
+
+
 }
 
 @keyframes blink {
@@ -84,6 +86,7 @@ width: 300px;
 #cog {
   width: 280px;
   height: 150px;
+  transform: translatey(10px)
 }
 
 #cog1 {
