@@ -74,3 +74,5 @@ function typeWriter(elemento) {
 }
 const titulo = document.querySelector(".type");
 typeWriter(titulo);
+
+
