@@ -180,18 +180,25 @@
 }
 
 .dark #cog {
-  stroke: #f0f0f0;
-  fill: #ffd700;
+  stroke: #000;
+  fill: #ffffff;
+  stroke-width: 2;
 }
 
 .dark #cog1 {
-  stroke: #f0f0f0;
-  fill: #ffd700;
+  stroke: #000;
+  fill: #ffffff;
+  stroke-width: 1.5;
+}
+.dark .filtro {
+ opacity: 0;
 }
 
+
 .dark #cog2 {
-  stroke: #f0f0f0;
-  fill: #ffd700;
+  stroke: #000;
+  fill: #ffffff;
+  stroke-width: 3;
 }
 
 .dark .box-a::before {

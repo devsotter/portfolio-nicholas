@@ -38,6 +38,7 @@
   margin: 10px;
 }
 .type::after {
+  transform: translatex(-15px);
   content: "|";
   opacity: 1;
   display: inline-block;

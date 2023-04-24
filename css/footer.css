@@ -54,12 +54,10 @@
 
 .seta-topo {
   width: 120px;
-  height: 70px;
-  display: block;
+  display: inline-block;
   position: relative;
   left: 50%;
-  margin-left: -59px;
-  bottom: 20px;
+  transform: translatey(-30px);
   transition: 0.3s ease;
 }
 
@@ -73,5 +71,5 @@
 }
 
 .seta-topo:hover {
-  bottom: 25px;
+transform: translatey(-35px);
 }

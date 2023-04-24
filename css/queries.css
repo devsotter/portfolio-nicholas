@@ -42,7 +42,7 @@
 
 @media (max-width: 600px) {
   .contato-info a {
-    font-size: clamp(2em, 1em + 1vw, 1.5em);
+    font-size: clamp(2.5em, 1em + 4vw, 1.5em);
   }
 }
 
@@ -51,7 +51,7 @@
     font-size: 1.2em;
   }
   .contato-info a {
-    font-size: clamp(1.5em, 1em + 1vw, 1.5em);
+    font-size: clamp(1.6em, 1em + 1vw, 1.5em);
   }
   .conteudo-main .type {
     font-size: clamp(1rem, 10vw, 2rem);
@@ -59,6 +59,9 @@
 }
 
 @media (max-width: 365px) {
+  .contato-info a {
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+  }
   .flex {
     transform: scale(0.8);
     gap: 50px;

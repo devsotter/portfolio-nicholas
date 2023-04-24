@@ -251,14 +251,11 @@
   font-weight: normal;
   position: relative;
 }
-.box-a::before {
-  content: "";
-  width: 15px;
-  height: 15px;
-  background-color: #ffd700;
-  border: 1px solid #2c2c2c;
-  display: block;
+.contato-info a {
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
 }
+
 
 .contato-arroba {
   width: 300px;
