@@ -169,6 +169,7 @@
 }
 
 .box {
+  transform: scale(0.9);
   position: relative;
   display: flex;
   justify-content: center;
