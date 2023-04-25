@@ -239,22 +239,24 @@
   padding: 10px;
 }
 
-.box-a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-}
 
 .contato-info a {
   font-size: clamp(3em, 1em + 1vw, 1.5em);
-  margin: 10px;
+  display: inline-block;
+  margin: 20px 10px;
   font-weight: normal;
-  position: relative;
-}
-.contato-info a {
   text-decoration-thickness: 3px;
   text-underline-offset: 7px;
+}
+.contato-info p {
+  margin: 20px 10px;
+  font-size: 2.2rem;
+
+}
+
+
+.box-a {
+      padding-bottom: 25px;
 }
 
 
