@@ -21,7 +21,7 @@
 
 .label .ball {
   border: 1px solid #ffd700;
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   border-radius: 50%;
   position: absolute;
   left: -1px;
@@ -42,6 +42,16 @@
 .label img {
   width: 16px;
 }
+.dark .nav-menu a {
+  color: #2c2c2c;
+}
+.dark .nav-menu.active a {
+  color: #f0f0f0;
+}
+.dark .nav-menu.active a:hover{
+  color: #2c2c2c;
+}
+
 
 .dark,
 .dark body {
@@ -57,9 +67,6 @@
   color: #2c2c2c;
 }
 
-.dark .nav-menu a {
-  color: #2c2c2c;
-}
 
 @media (max-width: 768px) {
   .dark .nav-menu a {
@@ -89,23 +96,23 @@
 .dark h3 {
   color: #2c2c2c;
   border: none;
-  box-shadow: 5px 5px #f0f0f0;
+ box-shadow: 2px 2px #f0f0f0;
 }
 
 .dark h4 {
   color: #2c2c2c;
   border: none;
-  box-shadow: 5px 5px #f0f0f0;
+ box-shadow: 2px 2px #f0f0f0;
 }
 
 .dark h5 {
   color: #2c2c2c;
-  box-shadow: 5px 5px #f0f0f0;
+ box-shadow: 2px 2px #f0f0f0;
 }
 
 .dark h6 {
   color: #2c2c2c;
-  box-shadow: 5px 5px #f0f0f0;
+ box-shadow: 2px 2px #f0f0f0;
 }
 
 .dark .sobre-info {
