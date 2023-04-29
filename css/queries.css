@@ -22,9 +22,11 @@
   .tag {
     display: none;
   }
+
   .pixel {
     display: none;
   }
+
   .img-sobre {
     display: none;
   }
@@ -50,9 +52,11 @@
   .corpo h1 {
     font-size: 1.2em;
   }
+
   .contato-info a {
     font-size: clamp(1.6em, 1em + 1vw, 1.5em);
   }
+
   .conteudo-main .type {
     font-size: clamp(1rem, 10vw, 2rem);
   }
@@ -62,6 +66,7 @@
   .contato-info a {
     font-size: clamp(1em, 1em + 1vw, 1.5em);
   }
+
   .flex {
     transform: scale(0.8);
     gap: 50px;

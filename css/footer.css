@@ -68,6 +68,7 @@
   width: 110px;
   height: 30px;
   padding: 8px;
+  transform: translateX(-50%);
 }
 
 .seta-topo:hover {

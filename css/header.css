@@ -75,14 +75,17 @@ header {
   body {
     padding-top: 0px;
   }
+
   header {
     position: fixed;
     top: 0;
     width: 100%;
   }
+
   body {
     margin-top: 110px;
   }
+
   .hamburguer {
     margin: 0 10px;
     display: block;

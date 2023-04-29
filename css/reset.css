@@ -1,21 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&family=Prompt:wght@100;200;400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;1,200&family=Poppins:ital,wght@0,200;1,100&family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;1,200&family=Poppins:ital,wght@0,200;1,100&family=VT323&display=swap");
+
 * {
   border-radius: 4px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 html {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: normal;
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
-  padding-top: 110px ;
+  padding-top: 110px;
   overflow-x: hidden;
   border-top: 50px;
   background-color: #f0f0f0;
@@ -29,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   box-shadow: 2px 2px #2c2c2c;
   padding: 0 5px;
@@ -39,50 +41,15 @@ h6 {
   margin: 10px;
   font-weight: 300;
 }
-h1::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
-}
-h2::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
-}
-h3::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
-}
-h4::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
-}
-h5::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
-}
-h6::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
-}
-p::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
-}
-::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
-}
 
-ul {
-  list-style: none;
+*::selection {
+  background: #2c2c2c;
+  color: #f0f0f0;
 }
 
 a {
   text-decoration: none;
   color: #2c2c2c;
-}
-a::selection {
-  background: #2c2c2c;
-  color: #f0f0f0;
 }
 
 img {
@@ -110,7 +77,7 @@ hr {
 }
 
 .icon-mob {
-  display: flex;
+  display: block;
   display: none;
   padding: 10px;
 }
@@ -118,7 +85,7 @@ hr {
 .codepen a,
 .sobre-info a,
 .projetos-info a,
-.contato-info a{
+.contato-info a {
   font-weight: bold;
   background-color: #ffd700;
   text-decoration-line: underline;
@@ -127,4 +94,3 @@ hr {
   text-decoration-thickness: 2px;
   text-underline-offset: 2px;
 }
-
