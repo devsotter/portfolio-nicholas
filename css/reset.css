@@ -77,7 +77,6 @@ hr {
 }
 
 .icon-mob {
-  display: block;
   display: none;
   padding: 10px;
 }
@@ -86,7 +85,7 @@ hr {
 .sobre-info a,
 .projetos-info a,
 .contato-info a {
-  font-weight: bold;
+  font-weight:bold;
   background-color: #ffd700;
   text-decoration-line: underline;
   text-decoration-style: wavy;

@@ -1,10 +1,9 @@
-@media (max-width: 1010px) {
-  .contato-arroba {
-    display: none;
-  }
-}
+
 
 @media (max-width: 970px) {
+  html {
+    font-size: 55%;
+  }
   .flex {
     max-width: 300px;
     margin: 0 auto;
@@ -18,12 +17,11 @@
   }
 }
 
-@media (max-width: 932px) {
-  .tag {
+@media (max-width: 940px) {
+  .contato-arroba {
     display: none;
   }
-
-  .pixel {
+  .tag {
     display: none;
   }
 
@@ -33,6 +31,9 @@
 }
 
 @media (max-width: 760px) {
+  .icones-skills {
+    justify-content: space-around;
+  }
   .topo {
     display: none;
   }
@@ -70,6 +71,7 @@
   .flex {
     transform: scale(0.8);
     gap: 50px;
+    transform: translateX(-50px);
   }
 
   .box {
